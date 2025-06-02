@@ -12,25 +12,28 @@ const theme = createTheme({
         borderRadius: 8,
     },
     components: {
-        MuiButton: {
-            styleOverrides: {
-                root: {
-                    textTransform: 'none',
-                },
-                containedPrimary: {
-                    backgroundColor: '#1976d2',
-                    '&:hover': {
-                        backgroundColor: '#115293',
-                    },
-                },
-            },
-        },
-        MuiPaper: {
-            defaultProps: {
-                elevation: 3,
-            },
-        },
-    },
+        
+    }
+    // components: {
+    //     MuiButton: {
+    //         styleOverrides: {
+    //             root: {
+    //                 textTransform: 'none',
+    //             },
+    //             containedPrimary: {
+    //                 backgroundColor: '#1976d2',
+    //                 '&:hover': {
+    //                     backgroundColor: '#115293',
+    //                 },
+    //             },
+    //         },
+    //     },
+    //     MuiPaper: {
+    //         defaultProps: {
+    //             elevation: 3,
+    //         },
+    //     },
+    // },
 });
 
 export default theme;

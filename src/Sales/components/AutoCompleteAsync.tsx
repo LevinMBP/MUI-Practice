@@ -22,6 +22,7 @@ const AutoCompleteAsync = <T extends FieldValues>({ name, options, label }: Prop
                     onChange={onChange}
                     // getOptionLabel={(option) => option.label}
                     multiple
+                    size='small'    // Small and Medium only
                     renderInput={(params) => (
                         <TextField
                             {...params}
